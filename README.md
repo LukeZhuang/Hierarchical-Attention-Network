@@ -1,7 +1,8 @@
 # Hierarchical-Attention-Networks
 My implementation for "[Hierarchical Attention Networks for Document Classification](http://www.cs.cmu.edu/~./hovy/papers/16HLT-hierarchical-attention-networks.pdf)"
 
-Data from Yelp is downloaded from [Duyu Tang's homepage](http://ir.hit.edu.cn/~dytang/)
+Data from Yelp is downloaded from [Duyu Tang's homepage](http://ir.hit.edu.cn/~dytang/)  
+Download link is [http://ir.hit.edu.cn/~dytang/paper/emnlp2015/emnlp-2015-data.7z](http://ir.hit.edu.cn/~dytang/paper/emnlp2015/emnlp-2015-data.7z)
 
 1. Put data in a directory named "data/yelp_YEAR/" (where "YEAR" is the year)  
 2. Run "yelp-preprocess.ipynb" to preprocess the data.  
