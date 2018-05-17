@@ -1,5 +1,5 @@
 # Hierarchical-Attention-Networks
-My implementation for "[Hierarchical Attention Networks for Document Classification](http://www.cs.cmu.edu/~./hovy/papers/16HLT-hierarchical-attention-networks.pdf)"
+My implementation for "[Hierarchical Attention Networks for Document Classification](http://www.cs.cmu.edu/~./hovy/papers/16HLT-hierarchical-attention-networks.pdf)" (Yang et al. 2016)
 
 Data from Yelp is downloaded from [Duyu Tang's homepage](http://ir.hit.edu.cn/~dytang/)  
 Download link: http://ir.hit.edu.cn/~dytang/paper/emnlp2015/emnlp-2015-data.7z
