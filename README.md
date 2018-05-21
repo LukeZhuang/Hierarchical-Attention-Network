@@ -17,9 +17,13 @@ epoches | batch size | GRU units | word2vec size | optimizer | learning rate | m
 ------- | ---------- |---------- |-------------- |---------- |-------------- | -----------------------
  50     | 32         | 128       | 50            | Adam      | 4e-4          | 200
 
-
 ## Training Process
 ![alt text](model-acc.png)
+ 
+ ## Accuracy we currently get on Yelp2013 dataset
+train   | validation | test
+------- | ---------- |-----
+66.891% | 64.659%    | 64.734%
 
 ## Typical Examples
 ### 1. Successful case: (capture the key sentence "service is awesome" and key word "awesome")
