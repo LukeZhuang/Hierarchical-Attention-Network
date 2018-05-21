@@ -25,5 +25,5 @@ epoches | batch size | GRU units | word2vec size | optimizer | learning rate | m
 ### 1. Successful case: (capture the key sentence "service is awesome" and key word "awesome")
 ![alt text](case1.PNG)  
 
-### 2. Failed case: (capture the keyword "loved" but ignore the context "initially")**
+### 2. Failed case: (capture the keyword "loved" but ignore the context "initially")
 ![alt text](case2.PNG)
