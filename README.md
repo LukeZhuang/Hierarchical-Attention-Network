@@ -12,3 +12,18 @@ Download link: http://ir.hit.edu.cn/~dytang/paper/emnlp2015/emnlp-2015-data.7z
 
 Now we get about 65% accuracy on the yelp2013 test set. After fine-tuning hyperparameters, it can be better.
 
+## Hyperparameters we used
+epoches | batch size | GRU units | word2vec size | optimizer | learning rate | maximum sentence length
+------- | ---------- |---------- |-------------- |---------- |-------------- | -----------------------
+ 50     | 32         | 128       | 50            | Adam      | 4e-4          | 200
+
+
+## Training Process
+![alt text](model-acc.png)
+
+## Typical Examples
+### 1. Successful case: (capture the key sentence "service is awesome" and key word "awesome")
+![alt text](case1.PNG)  
+
+### 2. Failed case: (capture the keyword "loved" but ignore the context "initially")**
+![alt text](case2.PNG)
